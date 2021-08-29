@@ -1,0 +1,45 @@
+img  {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+*,*:after,*:before  {
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    color: $primary;
+    font-family: $base;
+}
+
+a{ 
+    text-decoration: none;
+    display: inline-block;
+    color: $primary;
+    font-family: $base;
+    line-height: 1;
+    &:hover{
+        color: $secondary;
+    }
+}
+.title{
+    font-family: $second;
+}
+
+//btn
+.btn{
+    border-radius: 0;
+    width: 211px;
+    height: 61px;
+    line-height: 47px; 
+}
+.btn-primary{
+    color: $primary;
+    background-color: $third;
+    border-color: $secondary;
+    &:hover{
+        color: $third;
+        background-color: $primary;
+        border-color: $primary;
+    }
+}

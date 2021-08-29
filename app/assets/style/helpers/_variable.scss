@@ -1,0 +1,32 @@
+// color
+$primary: #000000DE;
+$secondary: #00000099; //淡灰色
+$third: #F1F5F6; // bg 淡藍色
+$white: #fff;
+
+
+$helper-flex:(
+    'center':  center,
+    'between': space-between,
+    'around': space-around,
+    'start': flex-start,
+    'end': flex-end,
+    'stretch': stretch
+);
+
+// font style
+$base: 'Lato', sans-serif;
+$second: 'Merriweather', serif;
+
+// font-size
+$font-base: 1vw;
+$font-1: $font-base * 1;
+$font-2: $font-base * 2;
+$font-3: $font-base * 3;
+$font-4: $font-base * 4;
+$font-5: $font-base * 5;
+
+
+
+
+

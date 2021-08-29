@@ -1,0 +1,111 @@
+// spacing padding
+
+@for $i from 1 through 50{
+    .pt-#{$i}{
+        padding-top: $i * 4 + px;
+    }
+    .pb-#{$i}{
+        padding-bottom: $i * 4 + px;
+    }
+    .pe-#{$i}{
+        padding-right: $i * 4 + px;
+    }
+    .ps-#{$i}{
+        padding-left: $i * 4 + px;
+    }
+    .py-#{$i}{
+        padding-top: $i * 4 + px;
+        padding-bottom: $i * 4 + px;
+    }
+    .px-#{$i}{
+        padding-left: $i * 4 + px;
+        padding-right: $i * 4 + px;
+    }
+    .p-#{$i}{
+        padding: $i * 4 + px;
+    }
+}
+
+@for $i from 1 through 50{
+    .mt-#{$i}{
+        margin-top: $i * 4 + px;
+    }
+    .mb-#{$i}{
+        margin-bottom: $i * 4 + px;
+    }
+    .me-#{$i}{
+        margin-right: $i * 4 + px;
+    }
+    .ms-#{$i}{
+        margin-left: $i * 4 + px;
+    }
+    .my-#{$i}{
+        margin-top: $i * 4 + px;
+        margin-bottom: $i * 4 + px;
+    }
+    .mx-#{$i}{
+        margin-left: $i * 4 + px;
+        margin-right: $i * 4 + px;
+    }
+    .m-#{$i}{
+        margin: $i * 4 + px;
+    }
+}
+//font-size 
+.font{
+  &-1{
+      font-size: $font-1;
+  }
+  &-2{
+    font-size: $font-2;
+  }
+  &-3{
+      font-size: $font-3;
+  }
+  &-4{
+      font-size: $font-4;
+  }
+  &-5{
+    font-size: $font-5;
+  }
+} 
+
+
+
+//font-weight
+.font{
+    &-bold{font-weight: bold; }
+    &-regular{font-weight: normal;}
+    &-light{font-weight: lighter; }
+}
+
+//border
+.border{
+    &-bottom{ border-bottom: 1px solid #121212 !important;}
+    &-right{ border-right: 1px solid #121212 !important;}
+    &-left{ border-left: 1px solid #121212 !important;}
+}
+
+//text-align
+.text{
+    &-right{ text-align: right;}
+}
+
+//color
+.text{
+    &-secondary{
+        color: $secondary;
+    }
+}
+
+// font-famaily
+.font{
+    &-second{
+        font-family: $second;
+    }
+}
+.bg-img{
+    background-size: cover;
+    background-position: center center;
+}
+

@@ -1,0 +1,59 @@
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 10%;
+}
+.container_card{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.intro_item{
+    width: 50%;
+   .pic_1{
+       background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week7/img1.jpg);
+       display: block;
+       width: 100%;
+       height: 90%;
+   }
+   .collection{
+       height: 10%;
+   }
+   .pic_2{  
+       background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week7/img2.jpg?raw=true);
+       display: block;
+       width: 100%;
+       height: 100%;
+   }
+   .pic_3{
+       background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week7/img3.jpg?raw=true);
+       display: block;
+       width: 100%;
+       height: 100%;
+   }
+
+}
+.intro_list{
+    .intro_item:nth-child(1){
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+}
+
+.banner{
+    background-image:url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week7/img4.jpg?raw=true); 
+    display: block;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center 10%;
+}
+
+.container_card{
+    .card_items{
+        width: 31.3333%;
+    }
+    
+}
