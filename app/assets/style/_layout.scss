@@ -1,7 +1,7 @@
-.header{
+.header,.footer{
     .title{
     @include hide-text;
-    background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/8a71940d3cd9c932e7126e75e093f68f3a861b79/week7/logo-fixie.svg);
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/8a71940d3cd9c932e7126e75e093f68f3a861b79/week7/logo-fixie.svg);
     display: block;
     width: 112px;
     height: 48px;

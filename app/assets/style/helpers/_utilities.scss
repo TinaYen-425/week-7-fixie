@@ -96,6 +96,12 @@
     &-secondary{
         color: $secondary;
     }
+    &-white{
+        color: $white;
+    }
+    &-forth{
+        color: $forth;
+    }
 }
 
 // font-famaily
@@ -109,3 +115,20 @@
     background-position: center center;
 }
 
+//background
+.bg{
+    &-forth{
+        background: $forth !important;
+    }
+    &-third{
+        background: $third;
+    }
+}
+
+//
+.p-relative{
+    position: relative;
+}
+.p-absolute{
+    position: absolute;
+}
