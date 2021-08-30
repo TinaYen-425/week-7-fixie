@@ -2425,6 +2425,12 @@ a {
 .text-secondary {
   color: #00000099; }
 
+.text-white {
+  color: #fff; }
+
+.text-forth {
+  color: #121212; }
+
 .font-second {
   font-family: "Merriweather", serif; }
 
@@ -2432,11 +2438,38 @@ a {
   background-size: cover;
   background-position: center center; }
 
-.header .title {
+.bg-forth {
+  background: #121212 !important; }
+
+.bg-third {
+  background: #F1F5F6; }
+
+.p-relative {
+  position: relative; }
+
+.p-absolute {
+  position: absolute; }
+
+.more {
+  width: 150px;
+  height: 61px;
+  line-height: 61px;
+  border: 1px solid #121212;
+  text-align: center;
+  font-size: 2vw; }
+
+.more-arrow {
+  border: 1px solid #121212;
+  width: 61px;
+  height: 61px;
+  line-height: 61px;
+  text-align: center; }
+
+.header .title, .footer .title {
   text-indent: 101%;
   overflow: hidden;
   white-space: nowrap;
-  background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/8a71940d3cd9c932e7126e75e093f68f3a861b79/week7/logo-fixie.svg);
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/8a71940d3cd9c932e7126e75e093f68f3a861b79/week7/logo-fixie.svg);
   display: block;
   width: 112px;
   height: 48px; }
@@ -2446,7 +2479,7 @@ a {
   margin: 0 auto;
   padding-left: 10%; }
 
-.container_card {
+.container_bot {
   max-width: 80%;
   margin: 0 auto; }
 
@@ -2456,9 +2489,7 @@ a {
     background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week7/img1.jpg);
     display: block;
     width: 100%;
-    height: 90%; }
-  .intro_item .collection {
-    height: 10%; }
+    height: 89.1%; }
   .intro_item .pic_2 {
     background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week7/img2.jpg?raw=true);
     display: block;
@@ -2470,10 +2501,6 @@ a {
     width: 100%;
     height: 100%; }
 
-.intro_list .intro_item:nth-child(1) {
-  padding-top: 10%;
-  padding-bottom: 10%; }
-
 .banner {
   background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week7/img4.jpg?raw=true);
   display: block;
@@ -2483,7 +2510,11 @@ a {
   background-size: cover;
   background-position: center 10%; }
 
-.container_card .card_items {
+.container_bot .card_items {
   width: 31.3333%; }
+
+.more_btn {
+  top: 50%;
+  left: -150px; }
 
 /*# sourceMappingURL=all.css.map */
